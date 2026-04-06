@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revelación de Género · Una Sorpresa Muy Especial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div id="loader">
+        <div class="loader-ring"></div>
+        <div class="loader-text">Preparando la sorpresa…</div>
+    </div>
+
+    <!-- CONFETTI CANVAS -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- ═══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+    <section id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-orb orb-blue"></div>
+        <div class="hero-orb orb-pink"></div>
+        <div class="hero-orb orb-gold"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge">Una Sorpresa Muy Especial</div>
+            <h1 class="hero-title">
+                Estás invitado<br>
+                a <em>descubrir</em><br>
+                algo especial…
+            </h1>
+            <p class="hero-names">
+                <span>Mario Adiel</span> &nbsp;&amp;&nbsp; <span>Ariana Alexandra</span>
+            </p>
+            <a href="#invitation" class="hero-btn">
+                Descubrir invitación
+                <span class="btn-arrow">→</span>
+            </a>
+        </div>
+
+        <div class="hero-scroll">
+            <span class="scroll-text">Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     INVITATION
+═══════════════════════════════════════════ -->
+    <section id="invitation">
+        <div class="invitation-inner">
+            <span class="section-label reveal">Estás invitado</span>
+            <h2 class="section-title reveal reveal-delay-1">
+                Acompáñanos a descubrir<br><em>si será niño o niña</em>
+            </h2>
+            <p class="invitation-sub reveal reveal-delay-2">
+                Un momento que cambia para siempre la historia de nuestra familia.<br>
+                Queremos que tú seas parte de este instante tan especial.
+            </p>
+
+            <div class="divider reveal reveal-delay-2"></div>
+
+            <div class="info-grid">
+                <div class="info-card reveal reveal-delay-2">
+                    <span class="info-icon">📅</span>
+                    <span class="info-label">Fecha</span>
+                    <div class="info-value">18 de abril<br>de 2026</div>
+                </div>
+                <div class="info-card reveal reveal-delay-3">
+                    <span class="info-icon">⏰</span>
+                    <span class="info-label">Hora</span>
+                    <div class="info-value">04:30<br><small style="font-size:14px;color:var(--ink-muted)">[hora de
+                            inicio]</small></div>
+                </div>
+                <div class="info-card reveal reveal-delay-4">
+                    <span class="info-icon">📍</span>
+                    <span class="info-label">Lugar</span>
+                    <div class="info-value">URB. Monterrico IV <br><small
+                            style="font-size:14px;color:var(--ink-muted)"></small></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     DINÁMICA
+═══════════════════════════════════════════ -->
+    <section id="dinamica">
+        <div class="dinamica-inner">
+            <span class="section-label reveal">Dinámica del Evento</span>
+            <h2 class="section-title reveal reveal-delay-1">¿Cuál es tu <em>predicción?</em></h2>
+            <p class="dinamica-sub reveal reveal-delay-2">Ven con tu elección y demuéstralo con colores</p>
+
+            <div class="gender-grid">
+                <div class="gender-card blue-card reveal reveal-delay-2">
+                    <span class="gender-emoji">💙</span>
+                    <span class="gender-label">Si crees que es</span>
+                    <div class="gender-title">Niño</div>
+                    <p class="gender-desc">Traer pañales <br> O <br>- prenda color neutro(bb)
+                        <br>- baberos <br>- medias o gorrito azul <br>- manta sencilla <br>- chupon o biberon
+                    </p>
+                </div>
+                <div class="gender-card pink-card reveal reveal-delay-3">
+                    <span class="gender-emoji">💖</span>
+                    <span class="gender-label">Si crees que es</span>
+                    <div class="gender-title">Niña</div>
+                    <p class="gender-desc">Traer toallitas humedas <br> O <br>- ropa color pastel
+                        <br>- cremita o talco <br>- vinchitas o accesorios <br>- toallita de bb
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     VESTIMENTA
+═══════════════════════════════════════════ -->
+    <section id="vestimenta">
+        <div class="vest-bg"></div>
+        <div class="vest-content">
+            <span class="section-label reveal">Código de Vestimenta</span>
+            <h2 class="section-title reveal reveal-delay-1" style="color:var(--white)">Viste de <em
+                    style="color:rgba(255,255,255,0.4)">blanco</em></h2>
+
+            <div class="vest-card reveal reveal-delay-2">
+                <span class="vest-icon">👕</span>
+                <div class="vest-main">Prenda superior blanca</div>
+                <p class="vest-sub">La parte de abajo es libre — tú eliges</p>
+                <div class="vest-rule">"Prepárate para llenarte de color…"</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     COUNTDOWN
+═══════════════════════════════════════════ -->
+    <section id="countdown">
+        <div class="countdown-inner">
+            <span class="section-label reveal">Faltan</span>
+            <h2 class="countdown-title reveal reveal-delay-1">El gran momento<br><em style="color:var(--gold)">se
+                    acerca</em></h2>
+            <p class="countdown-sub reveal reveal-delay-2">Contador regresivo</p>
+
+            <div class="counter-grid reveal reveal-delay-3">
+                <div class="counter-box">
+                    <span class="counter-num" id="cd-days">00</span>
+                    <span class="counter-label">Días</span>
+                </div>
+                <div class="counter-box">
+                    <span class="counter-num" id="cd-hours">00</span>
+                    <span class="counter-label">Horas</span>
+                </div>
+                <div class="counter-box">
+                    <span class="counter-num" id="cd-mins">00</span>
+                    <span class="counter-label">Minutos</span>
+                </div>
+                <div class="counter-box">
+                    <span class="counter-num" id="cd-secs">00</span>
+                    <span class="counter-label">Segundos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     GALLERY
+═══════════════════════════════════════════ -->
+    <section id="gallery">
+        <div class="gallery-header">
+            <span class="section-label reveal">Momentos</span>
+            <h2 class="section-title reveal reveal-delay-1">Nuestra <em>historia</em></h2>
+        </div>
+
+        <div class="slider-wrap reveal reveal-delay-2">
+            <div class="slider-track" id="sliderTrack">
+                <!-- Foto 1 -->
+                <div class="slide">
+                    <img src="img1.jpeg" alt="Ecografía" class="slide-media">
+                    <div class="slide-caption">La primera vez que te vimos</div>
+                </div>
+                <!-- Foto 2 -->
+                <div class="slide">
+                    <img src="img2.jpeg" alt="Prueba embarazo" class="slide-media">
+                    <div class="slide-caption">Dentro de mi </div>
+                </div>
+
+                <div class="slide">
+                    <!--video-->>
+
+                    <video class="slide-media" autoplay loop muted playsinline>
+                        <source src="video1.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="slide-caption">Escuchando tus latidos</div>
+                </div>
+                <!-- Foto 4 -->
+                <div class="slide">
+                    <img src="img4.jpeg" alt="Padres" class="slide-media">
+                    <div class="slide-caption">👰🏻‍♀️🤵🏻</div>
+                </div>
+                <!-- Foto 5 -->
+                <div class="slide">
+                    <img src="img3.jpeg" alt="Ropita" class="slide-media">
+                    <div class="slide-caption">Tu primera ropita</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="slider-btn" id="slidePrev">←</button>
+            <div class="slider-dots" id="sliderDots"></div>
+            <button class="slider-btn" id="slideNext">→</button>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     VOTE
+═══════════════════════════════════════════ -->
+    <section id="vote">
+        <div class="vote-inner">
+            <span class="section-label reveal">Tu voto cuenta</span>
+            <h2 class="section-title reveal reveal-delay-1">¿Cuál es <em>tu predicción?</em></h2>
+            <p class="vote-sub reveal reveal-delay-2">Vota y mira qué piensa el resto de los invitados</p>
+
+            <div class="vote-btns reveal reveal-delay-3" id="voteBtns">
+                <button class="vote-btn blue-vote" onclick="castVote('boy')">
+                    <span>💙</span>
+                    <span>Creo que es niño</span>
+                </button>
+                <button class="vote-btn pink-vote" onclick="castVote('girl')">
+                    <span>💖</span>
+                    <span>Creo que es niña</span>
+                </button>
+            </div>
+
+            <div class="vote-results reveal" id="voteResults">
+                <div class="result-bars">
+                    <div class="result-row">
+                        <div class="result-top">
+                            <span
+                                style="color:var(--blue);letter-spacing:3px;font-size:11px;text-transform:uppercase">💙
+                                Niño</span>
+                            <span class="result-pct" id="boyPct" style="color:var(--blue)">0%</span>
+                        </div>
+                        <div class="result-bar-bg">
+                            <div class="result-bar-fill blue" id="boyBar"></div>
+                        </div>
+                    </div>
+                    <div class="result-row" style="margin-top:24px">
+                        <div class="result-top">
+                            <span
+                                style="color:var(--pink);letter-spacing:3px;font-size:11px;text-transform:uppercase">💖
+                                Niña</span>
+                            <span class="result-pct" id="girlPct" style="color:var(--pink)">0%</span>
+                        </div>
+                        <div class="result-bar-bg">
+                            <div class="result-bar-fill pink" id="girlBar"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="vote-total" id="voteTotal">0 votos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     MAP
+═══════════════════════════════════════════ -->
+    <section id="map-section">
+        <div class="map-inner">
+            <div class="map-header">
+                <span class="section-label reveal">Cómo llegar</span>
+                <h2 class="section-title reveal reveal-delay-1">El <em>lugar</em></h2>
+            </div>
+            <div class="map-frame reveal reveal-delay-2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1775259005455!6m8!1m7!1s-3lM90q0nUODa4vtKtu-Qg!2m2!1d-6.784079523208914!2d-79.85700066565609!3f170.74663940252927!4f21.122031522354646!5f0.7820865974627469"
+                    width="100%" height="400" style="border:0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map-info-bar">
+                    <div class="map-address">
+                        <strong>URB. Monterrico IV</strong>
+                        <strong> Ultimo piso (Azotea) </strong>
+
+                    </div>
+                    <a href="#" class="map-open-btn" onclick="openMap(); return false;">
+                        📍 Abrir en Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     RSVP
+═══════════════════════════════════════════ -->
+    <section id="rsvp">
+        <div class="rsvp-bg"></div>
+        <div class="rsvp-content">
+            <span class="section-label reveal">Confirmación</span>
+            <h2 class="section-title reveal reveal-delay-1" style="color:var(--white)">
+                Confirma tu <em style="color:rgba(255,255,255,0.35)">asistencia</em>
+            </h2>
+            <p class="rsvp-sub reveal reveal-delay-2">
+                Tu presencia hace este momento aún más especial.<br>
+                Confírmanos que estarás allí.
+            </p>
+            <a href="https://wa.me/51901914514?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20la%20revelación%20de%20género%20🎉"
+                class="rsvp-btn reveal reveal-delay-3" target="_blank">
+                <span class="rsvp-icon">📲</span>
+                Confirmar asistencia por WhatsApp
+            </a>
+
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     FINALE
+═══════════════════════════════════════════ -->
+    <section id="finale">
+        <div class="finale-bg"></div>
+        <div class="finale-orb-blue"></div>
+        <div class="finale-orb-pink"></div>
+        <div class="finale-content">
+            <div class="finale-eyebrow">El momento llega</div>
+            <h2 class="finale-title">¿Estás listo para <em>descubrirlo?</em></h2>
+            <div class="finale-divider"></div>
+            <p class="finale-sub">Te esperamos con el corazón abierto</p>
+            <div class="finale-hearts">💙 &nbsp; 🌟 &nbsp; 💖</div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════════ -->
+    <script type="module" src="script.js" defer></script>
+
+</body>
+
+</html>
